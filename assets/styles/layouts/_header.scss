@@ -1,0 +1,163 @@
+.navbar-inverse {
+	min-height: 30px;
+	padding: 5px 0 0;
+	a {
+		color: #fff;
+		padding-top: 10px;
+	}
+}
+
+.navbar-default {
+	margin-top: 30px;
+	padding-top: 50px;
+	margin-bottom: 35px;
+	#mainnav {
+		border-bottom: 1px solid $gray-light;
+	}
+	.navbar-header {
+		width: 100%;
+	}
+	.navbar-brand {
+		color: $gray-dark;
+		font-size: 45pt;
+		height: auto;
+		margin-bottom: 35px;
+		display: inline-block;
+		line-height: 1;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.navbar-nav>li>a {
+		text-transform: uppercase;
+		font-size: 10pt;
+		padding: 5px 10px;
+		margin-bottom: 2px;
+		i {
+			font-size: 14pt;
+		}
+		&#search-toggle.active {
+		  background-color: $gray-lightest;
+		  margin-bottom: 0;
+		  padding: 5px 10px 7px 10px;
+		}
+	}
+	.navbar-nav>li>a.dropdown-toggle {
+		float: left;
+	}
+	.navbar-nav>li>a i.fa.fa-chevron-down {
+	  font-size: 9pt;
+	  float: right;
+	  padding: 6px 0 0px 3px;
+	}
+	.navbar-nav>li.menu-subscribe>a {
+		text-transform: none;
+		cursor: pointer;
+		i {
+			padding-top: 1px;
+			float: left;
+			padding-right: 4px;
+		}
+		span {
+			float: left;
+			margin-top: -2px;
+		}
+	}
+	.navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover {
+		background: $gray-lighter;
+	}
+	.navbar-right {
+		margin-right: 0;
+	}
+}
+
+.page-header {
+	border: none;
+	margin-top: 0;
+}
+
+/* Search form */
+#search-form {
+	margin-top: -1px;
+	background-color: #f1f1f1;
+	form {
+		padding: 5px 10px 7px 10px;
+		text-align: left;
+	}
+	.form-control {
+		background: none;
+		border: none;
+		box-shadow: none;
+		font-size: 18pt;
+		border-bottom: 1px solid $gray-lighter;
+	}
+	::-webkit-input-placeholder {
+	   color: $gray-light;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: $gray-light;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: $gray-light;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: $gray-light;  
+	}
+	.input-group-btn {
+		left: 10px;
+		button {
+			text-transform: uppercase;
+			font-size: 11pt;
+			padding: 7px 10px 5px;
+			top: 1px;
+		}
+	}
+}
+
+.search-results {
+	h1 {
+		text-align: center;
+	}
+}
+
+
+/* Page header styles per page */
+
+#cat-banner {
+	height: 300px;
+	background-color: $gray-lighter;
+	background-size: cover;
+	background-position: center;
+	@include flexbox;
+	@include flex-direction(column);
+	@include flex-just(center);
+	@include align-items(center);
+	h1 {
+		margin: 0;
+		padding: 30px 60px;
+		max-width: 80%;
+		color: #FFF;
+		font-weight: 600;
+		text-align: center;
+		font-size: 32pt;
+	}
+}
+
+/* Modals */
+
+.modal-backdrop {
+	background-color: #fff;
+}
+
+.modal-title {
+	font-size: 20pt;
+	text-align: center;
+}
+
+.modal {
+	.btn {
+		text-transform: uppercase;
+	}
+}

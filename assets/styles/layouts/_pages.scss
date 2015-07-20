@@ -1,0 +1,40 @@
+.about {
+	.wrap {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	.category-listing {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	h1 {
+		text-align: center;
+		font-weight: 600;
+		font-size: 32pt;
+	}
+	p {
+		font-size: 13pt;
+		color: $gray;
+	}
+	h2 {
+		margin: 0;
+		font-size: 24pt;
+		font-weight: 600;
+		a {
+			color: $gray-dark;	
+		}
+	}
+	figure {
+	  height: 150px;
+	  overflow: hidden;
+	}
+}
+
+.page.search {
+	#search-form form {
+	  padding: 30px 10px 20px 10px;
+	  margin-bottom: 60px;
+	  width: auto;
+	  text-align: center;
+	}
+}

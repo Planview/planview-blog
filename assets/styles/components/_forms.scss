@@ -1,0 +1,27 @@
+#subscribeModal {
+	.gform_wrapper {
+		max-width: 100%;
+		margin: 0;
+		.gform_heading {
+		  width: 100%;
+		}
+		select[multiple=multiple] option {
+			white-space: normal;
+			padding: 5px;
+			border-bottom: 1px solid $gray-lightest;
+		}
+		.top_label .gfield_label {
+			margin: 15px 0 0;
+		}
+		label.gfield_label+div.ginput_container {
+		  margin-top: 0;
+		}
+		.gform_footer {
+			padding: 0;
+		}
+		.gform_footer input.button, .gform_footer input[type=submit] {
+			@extend .btn-primary, .btn-block, .btn-lg;
+			text-transform: uppercase;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+// Override Bootstrap variables
+
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #9a5b7d;
+$brand-success:			#afcc7a;
+
+$gray:                  #666;
+$gray-light:            #999;
+$gray-lighter:			#ccc;
+$gray-dark:				#333;
+
+// Fonts
+$font-family-sans-serif:  	'Avenir W02',Arial,Verdana,Helvetica,sans-serif;
+$font-size-base:          	13pt;
+$text-color:           		$gray;
+$headings-color:          	$gray-dark;
+$headings-font-weight:    	300;
+
+// Navigation
+$navbar-inverse-bg:					$gray-light;
+$navbar-inverse-border:				transparent;
+
+$navbar-default-color:             $gray;
+$navbar-default-bg:                #fff;
+$navbar-default-border:            transparent;
+
+// Navbar links
+$navbar-default-link-color:                $gray;
+$navbar-default-link-hover-color:          lighten($navbar-default-link-color, 15%);
+$navbar-default-link-active-color:         #fff;
+$navbar-default-link-active-bg:            $brand-primary;
+$navbar-default-link-disabled-color:       #ccc;
+$navbar-default-link-disabled-bg:          transparent;
+
+// Default border radii 
+$border-radius-base:        0px;
+$border-radius-large:       0px;
+$border-radius-small:       0px;

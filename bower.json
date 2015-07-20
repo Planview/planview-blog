@@ -1,0 +1,55 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "bootstrap-sass-official": "3.3.4",
+    "fontawesome": "~4.3.0",
+    "placeholders": "~4.0.1",
+    "fancybox": "~2.1.5"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "bootstrap-sass-official": {
+      "main": [
+        "./assets/stylesheets/_bootstrap.scss",
+        "./assets/javascripts/bootstrap/transition.js",
+        "./assets/javascripts/bootstrap/alert.js",
+        "./assets/javascripts/bootstrap/button.js",
+        "./assets/javascripts/bootstrap/carousel.js",
+        "./assets/javascripts/bootstrap/collapse.js",
+        "./assets/javascripts/bootstrap/dropdown.js",
+        "./assets/javascripts/bootstrap/modal.js",
+        "./assets/javascripts/bootstrap/tooltip.js",
+        "./assets/javascripts/bootstrap/popover.js",
+        "./assets/javascripts/bootstrap/scrollspy.js",
+        "./assets/javascripts/bootstrap/tab.js",
+        "./assets/javascripts/bootstrap/affix.js"
+      ],
+      "dependencies": {}
+    },
+    "fancybox": {
+      "main": [
+        "source/jquery.fancybox.css",
+        "source/jquery.fancybox.js",
+        "source/blank.gif",
+        "source/fancybox_loading.gif",
+        "source/fancybox_loading@2x.gif",
+        "source/fancybox_overlay.png",
+        "source/fancybox_sprite.png",
+        "source/fancybox_sprite@2x.png",
+        "source/jquery.fancybox.pack.js"
+      ],
+      "dependencies": {
+        "jquery": ">=1.10"
+      }
+    }
+  }
+}
