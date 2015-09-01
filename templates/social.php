@@ -10,6 +10,9 @@
 
 <div id="social-share">
     Share this post:
+    <?php /* echo do_shortcode('[shareaholic app="share_buttons" id="19133889" title="' . the_title() . '"]'); */ ?>
+    <div class="shareaholic-canvas" data-app="share_buttons" data-app-id="19133889" data-title="<?php echo the_title(); ?>" data-link="<?php echo $url; ?>" data-image="<?php if ( has_post_thumbnail( $post->ID ) ) { $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); echo $image; } ?>"></div>
+    <?php /* Removed in lieu of Shareaholic
     <div id="social-buttons">
       <a class="social-button twitter newwindow" href="http://twitter.com/intent/tweet?text=<?php echo urlencode(html_entity_decode($title, ENT_COMPAT, 'UTF-8')); ?>%20<?php echo urlencode($url); ?>">
       	<i class="fa fa-twitter fa-fw"></i>
@@ -24,4 +27,5 @@
       	<i class="fa fa-facebook fa-fw"></i>
       </a>
     </div>
+    */ ?>
 </div>
