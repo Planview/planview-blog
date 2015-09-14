@@ -12,7 +12,7 @@
     	<a href="http://www.planview.com/" target="_blank"><img src="<?= get_template_directory_uri(); ?>/assets/images/planview-white.png" alt="Planview" width="150" height="35" class="footer-logo-area-img" /></a>
     </div>
     <div class="col-sm-4 footer-copyright-links">
-    	<p><a href="http://www.planview.com/legal/privacy-statement/" target="_blank" class="footer-copyright-links-privacy">Privacy</a>
+    	<p class="footer-copyright-links-p"><a href="http://www.planview.com/legal/privacy-statement/" target="_blank" class="footer-copyright-links-privacy">Privacy</a>
     	<a href="http://www.planview.com/legal/" target="_blank">Legal Terms</a><br />
         &copy; Copyright <?php echo date('Y'); ?> <a href="http://www.planview.com/" target="_blank" style="color:#FFF;">Planview, Inc.,</a> All Rights Reserved.</p>
     </div>
