@@ -31,6 +31,7 @@ function setup() {
   add_image_size( 'post-list-thumb', 100, 65, array( 'center', 'center' ) );
   add_image_size( 'prev-next-thumb', 100, 75, array( 'center', 'center' ) );
   add_image_size( 'featured', 750 );
+  // add_image_size( 'related-thumb', 100, 100, array( 'center', 'center' ) );
 
   // Add post formats
   // http://codex.wordpress.org/Post_Formats
