@@ -1,0 +1,95 @@
+article p a,
+article li a {
+    border-bottom: 1px dotted #9a5b7d;
+}
+article p a:focus, article p a:hover,
+article li a:focus, article li a:hover {
+    text-decoration: none !important;
+    border-bottom-style: solid;
+}
+a.borderless {
+    border: none;
+}
+[data-toggle="modal"] {
+    cursor: pointer;
+    border: none;
+}
+.slideshare { border: 1px solid #000; margin: .7em 0; }
+
+/* Shareaholic */
+.shareaholic-share-buttons-wrapper {
+    /* correct Shareaholic's forced left margin on the ul */
+    margin-right: 10px;
+}
+
+/* Footer */
+footer.content-info {
+	margin:0;
+}
+.footer-favorite-blogs { 
+	margin:0;
+	text-align:left;
+}
+.footer-favorite-blogs h3 {
+	color:#FFF; 
+	font-size:12px; 
+	margin:0; 
+	padding:0;
+	text-transform:uppercase;  
+}
+.footer-favorite-blogs ul#copyright {
+	margin:0; 
+	padding:0;
+}
+.footer-favorite-blogs ul#copyright li {
+	margin:0; 
+	padding:0;
+}
+.footer-favorite-blogs ul#copyright li h4 {
+	margin:10px 30px 0 0; 
+	padding:0;
+}
+.footer-logo-area {
+	text-align:center !important;
+}
+.footer-logo img.footer-logo-area-img {
+	 margin:7px 0; 
+	 padding:0;
+}
+.footer-copyright-links {
+	color:#FFF; 
+	font-size:12px; 
+	text-align:right;
+}
+.footer-copyright-links p {
+	margin:0; 
+	padding:0; 
+	line-height:25px;
+}
+.footer-copyright-links p a {
+	color:#FFF;
+}
+.footer-copyright-links p a.footer-copyright-links-privacy {
+	margin-right:1em;
+}
+/* fix for the about page */
+.about p.footer-copyright-links-p {
+    font-size: 12px;
+    color: #FFF;
+}
+@media screen and (max-width: 767px) {
+	.footer-favorite-blogs,
+	.footer-logo-area,
+	.footer-copyright-links { 
+		text-align:center !important;
+	}
+	.footer-favorite-blogs ul {
+		-webkit-padding-start:0;
+	}
+	.footer-favorite-blogs ul#copyright li h4 {
+		margin-right:0;
+	}	
+	.footer-logo-area-img { 
+		margin:15px 0;
+	}
+}
