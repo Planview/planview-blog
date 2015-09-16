@@ -25,9 +25,9 @@ $(document).ready(function() {
 				"position" : "relative",
 				"z-index" : "0"
 			});
-	
-			$( this ).html($( this ).html() + '<img src="/wp-content/themes/planview-wp-theme/img/design/icon-pop-up-50x50.png" id="screenOverlay'+(screenNumber+index)+'" width="50" height="50" alt="">');
 			
+			$( this ).html($( this ).html() + '<img src="/wp-content/themes/planview-blog/assets/images/icon-pop-up-50x50.png" id="screenOverlay'+(screenNumber+index)+'" style="display:inline-block !important;" width="50" height="50" alt="">');			
+	
 			$( 'img#screenOverlay'+(screenNumber+index) ).css({
 				"position" : "relative",
 				"margin-left" : "-50px",
