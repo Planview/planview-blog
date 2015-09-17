@@ -93,3 +93,10 @@ footer.content-info {
 		margin:15px 0;
 	}
 }
+/* old styles */
+img.icon, img.pdf-icon { 
+	display:inline-block !important;
+	vertical-align:bottom;
+	margin-bottom:3px !important;
+	margin-right:5px !important;
+}
