@@ -69,6 +69,7 @@ function assets() {
   
   wp_enqueue_style( 'avenir_font', '//fast.fonts.net/cssapi/09ff86dc-664a-4b55-b9ac-75e9cac7d8aa.css' );
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
+  wp_enqueue_style('additional_css', '/wp-content/themes/planview-blog/temp/styles/main-additional.css');
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
@@ -91,6 +92,6 @@ function assets() {
 
   wp_enqueue_script('modernizr', asset_path('scripts/modernizr.js'), [], null, true);
   wp_enqueue_script('sage_js', asset_path('scripts/main.js'), ['jquery'], null, true);
-  
+  wp_enqueue_script('main_additional','/wp-content/themes/planview-blog/temp/scripts/main-additional.js', [], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
