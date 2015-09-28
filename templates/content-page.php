@@ -6,7 +6,7 @@
 
 <?php endif; ?>
 
-<?php if(is_page('bloggers')): ?>
+<?php if(is_page('authors')): ?>
 
 	<?php get_template_part('templates/author', 'list'); ?>
 

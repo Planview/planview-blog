@@ -15,6 +15,8 @@
       ?>
       <?php the_content(); ?>
       <?php get_template_part('templates/social'); ?>
+      <?php echo do_shortcode('[yuzo_related]'); ?>
+      <?php related_posts(); ?>
       <?php get_template_part('templates/tags'); ?>
     </div>
     <?php get_template_part('templates/author-meta'); ?>

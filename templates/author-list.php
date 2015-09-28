@@ -58,11 +58,14 @@ if ( ! empty( $user_query->results ) ) {
 ?>
 <div class="author-listing row">
 	<figure class="col-sm-3 headshot">
-		<a href="<?php echo $author_url; ?>" alt="<?php echo $name; ?> on Planview Blog"><img src="<?php echo $imgsrc; ?>" alt="<?php echo $name; ?> on Planview Blog" class="img-responsive img-circle" /></a>
+		<a href="<?php echo $author_url; ?>" title="<?php echo $name; ?> on Planview Blog"><img src="<?php echo $imgsrc; ?>" alt="<?php echo $name; ?> on Planview Blog" class="img-responsive img-circle" /></a>
 	</figure>
 
 	<article class="col-sm-9">
-		<h2><a href="<?php echo $author_url; ?>" alt="<?php echo $name; ?> on Planview Blog"><?php echo $name; ?></a></h2>
+		<h2><a href="<?php echo $author_url; ?>" title="<?php echo $name; ?> on Planview Blog"><?php echo $name; ?></a></h2>
+        <?php if ($twitter): ?>
+        <a href="//twitter.com/<?php echo $twitter ?>" class="author-twitter" target="_blank">@<?php echo $twitter; ?></a>
+		<?php endif; ?>
 		<p><?php echo $bio; ?></p>
 	</article>
 </div>
