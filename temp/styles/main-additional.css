@@ -22,6 +22,42 @@ a.borderless {
     margin-right: 10px;
 }
 
+/* Bloggers List */
+.authors h1 {
+    text-align: center;
+}
+.authors .wrap {
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+.authors .headshot img {
+    width: 150px;
+    height: 150px;
+    margin: 18pt auto 0;
+}
+.authors .author-listing {
+    min-height: 150px;
+    margin-bottom: 25px;
+}
+.authors .author-twitter {
+    position: relative;
+    top: -7pt;
+    display: block;
+    padding-bottom: 3pt;
+}
+@media screen and (max-width: 767px) {
+    .authors h2 {
+        text-align: center;
+    }
+    .authors .author-twitter {
+        width: 100%;
+        text-align: center;
+    }
+    .authors .headshot img {
+        margin-left: auto;
+    }
+}
+
 /* Footer */
 footer.content-info {
 	margin:0;
