@@ -58,6 +58,14 @@ a.borderless {
     }
 }
 
+/* Header */
+.navbar-default .navbar-nav>li.menu-subscribe>a {
+    color: #f98810;
+}
+.navbar-default .navbar-nav>li.menu-subscribe>a:hover {
+    color: #fbaf5f;
+}
+
 /* Footer */
 footer.content-info {
 	margin:0;
