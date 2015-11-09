@@ -38,5 +38,24 @@ $(document).ready(function() {
 	
 		$( '<div id="screen'+(screenNumber+index)+'" class="modal fade text-center"><div class="modal-dialog" style="min-width: 80vw; max-width: 80vw; margin-left: auto; margin-right: auto;"><div class="modal-content"><div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button><h4 class="modal-title">'+$( this ).attr("title")+'</h4></div><div class="modal-body"><img class="img-responsive" src="'+$( this ).attr("data-href")+'" alt="'+$( this ).attr("title")+'" /></div><div class="modal-footer"><div class="row"><div class="col-md-2"></div><div class="col-md-8 text-center" style="margin-bottom:1em;">&copy; '+(new Date).getFullYear()+' Planview, Inc., All Rights Reserved.</div><div class="col-md-2 text-center"><button class="btn btn-default" type="button" data-dismiss="modal" style="margin:0 3em;">Close</button></div></div></div></div></div></div>' ).insertAfter( this );
 	});
+    
+    $(".video").click(function () {
+        $.fancybox({
+            'padding': 0,
+            'autoScale': false,
+            'transitionIn': 'none',
+            'transitionOut': 'none',
+            'title': this.title,
+            'width': 640,
+            'height': 385,
+            'href': this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+            'type': 'swf',
+            'swf': {
+                'wmode': 'transparent',
+                'allowfullscreen': 'true'
+            }
+        });
+        return false;
+    });
 
 });
