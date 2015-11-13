@@ -51,10 +51,11 @@ if ( ! empty( $user_query->results ) ) {
         $bio = get_the_author_meta('description', $author_id);
         $id = get_field('photo', 'user_'. $author_id );
         $twitter = get_field('twitter', 'user_'. $author_id );
+        $featured_author = get_field('featured_author', 'user_'. $author_id );
         $image = wp_get_attachment_image_src( $id, 'thumbnail' );
         $imgsrc = $image[0];
 
-        if ('' != $bio && '' != $imgsrc) {
+        if ('' != $bio && '' != $imgsrc && false != $featured_author) {
 ?>
 <div class="author-listing row">
 	<figure class="col-sm-3 headshot">
