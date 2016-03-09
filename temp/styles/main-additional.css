@@ -22,6 +22,14 @@ a.borderless {
     margin-right: 10px;
 }
 
+/* Category List */
+#cat-description {
+    padding: 30px 25px 0;
+}
+#cat-description hr {
+    margin-bottom: 0;
+}
+
 /* Bloggers List */
 .authors h1 {
     text-align: center;
