@@ -152,3 +152,67 @@ img.icon, img.pdf-icon {
 	margin-bottom:3px !important;
 	margin-right:5px !important;
 }
+
+/* YARPP plugin related posts */
+
+.yarpp-related,
+.yarpp-related p,
+.yarpp-related a {
+  font-size: .95em;
+  font-weight: normal !important;
+  border-bottom: 1px solid transparent;
+}
+.yarpp-related a:hover {
+  border-bottom: 1px solid #915b7d;
+}
+.yarpp-thumbnail {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-color: #f1f1f1;
+  background-image: url('/wp-content/themes/planview-blog/assets/images/planview-placeholder-300x300.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #f1f1f1;
+  text-decoration: none;
+}
+.yarpp-thumbnail:hover {
+  border: 1px solid #f1f1f1 !important;
+}
+@media only screen and (max-width: 767px) {
+  .yarpp-thumbnail {
+    display: none;
+  }
+}
+
+/* Social panel */
+
+#social-share {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Subscribe panel */
+
+.subscribe {
+  padding: 10px 20px 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: #f1f1f1;
+}
+.subscribe h4 {
+  font-size: 20px !important;
+  color: #9a5b7d;
+}
+.subscribe p {
+  font-size: 14px;
+}
+.subscribe button.btn.btn-sm {
+  padding: 5px 30px;
+  background: #f98810;
+  color: #fff;
+}
+.subscribe button.btn.btn-sm:hover {
+  background: #fbaf5f;
+}

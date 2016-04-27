@@ -14,8 +14,14 @@
         } 
       ?>
       <?php the_content(); ?>
-      <?php get_template_part('templates/social'); ?>
-      <?php echo do_shortcode('[yuzo_related]'); ?>
+      <div class="row">
+        <div class="col-sm-6">
+          <?php get_template_part('templates/social'); ?>
+        </div>
+        <div class="col-sm-6">
+          <?php get_template_part('templates/subscribe'); ?>
+        </div>
+      </div>
       <?php related_posts(); ?>
       <?php get_template_part('templates/tags'); ?>
     </div>
