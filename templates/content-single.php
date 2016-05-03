@@ -22,7 +22,8 @@
           <?php get_template_part('templates/subscribe'); ?>
         </div>
       </div>
-      <?php related_posts(); ?>
+      <?php /* related_posts(); YARPP plugin -- disabled due to WP Engine ban */ ?>
+      <?php rp4wp_children(); /* Related Posts for WordPress plugin */ ?>
       <?php get_template_part('templates/tags'); ?>
     </div>
     <?php get_template_part('templates/author-meta'); ?>
