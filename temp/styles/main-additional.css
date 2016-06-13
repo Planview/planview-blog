@@ -66,6 +66,13 @@ a.borderless {
     }
 }
 
+/* headshot shadow cutoff fix */
+.headshot img.img-circle {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 2px solid #ccc;
+}
+
 /* Header */
 .navbar-default .navbar-nav>li.menu-subscribe>a {
     color: #f98810;
