@@ -5,7 +5,7 @@
 ?>
 
 <!-- Subscribe Modal -->
-<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">

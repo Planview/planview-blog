@@ -4,6 +4,7 @@
 			$articleclass = 'col-sm-10';
 	  		$attr = array(
 	  			'class' => "img-responsive",
+	  			'alt' => "",
 	  		);
 	  		$size = 'post-list-thumb';
 	  	?>

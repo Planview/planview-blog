@@ -21,11 +21,14 @@
 			}
 		}
 	}
-	.post-tile .entry-summary {
-		display: none;
-	}
 	.headshot img {
 		border: 1px solid $gray-lighter;
+	}
+}
+
+.ie8 {
+	.post-tile .entry-summary {
+		display: none;
 	}
 }
 

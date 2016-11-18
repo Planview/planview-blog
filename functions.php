@@ -29,3 +29,12 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+// add trailing slash to homepage canonical URL
+add_filter( 'wpseo_canonical', 'add_hp_slash_canonical' );
+function add_hp_slash_canonical( $canonical ) {
+    if( is_home() ) { 
+        $canonical .= '/';
+    }
+    return $canonical;
+}

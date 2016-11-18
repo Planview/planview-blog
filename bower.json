@@ -7,11 +7,11 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "modernizr": "2.8.2",
     "bootstrap-sass-official": "3.3.4",
+    "fancybox": "~2.1.5",
     "fontawesome": "~4.3.0",
-    "placeholders": "~4.0.1",
-    "fancybox": "~2.1.5"
+    "modernizr": "2.8.2",
+    "placeholders": "~4.0.1"
   },
   "overrides": {
     "modernizr": {

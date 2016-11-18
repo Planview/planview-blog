@@ -15,11 +15,11 @@
 ?>
 <div class="category-listing row">
 	<figure class="col-sm-4">
-		<a href="<?php echo $caturl; ?>" alt="<?php echo $title; ?> on Planview Blog"><img src="<?php echo $imgsrc; ?>" alt="<?php echo $title; ?> on Planview Blog" class="img-responsive" /></a>
+		<a href="<?php echo $caturl; ?>" title="<?php echo $title; ?> posts on the Planview Blog"><img src="<?php echo $imgsrc; ?>" alt="<?php echo $title; ?> on Planview Blog" class="img-responsive" /></a>
 	</figure>
 
 	<article class="col-sm-8">
-		<h2><a href="<?php echo $caturl; ?>" alt="<?php echo $title; ?> on Planview Blog"><?php echo $title; ?></a></h2>
+		<h2><a href="<?php echo $caturl; ?>" title="<?php echo $title; ?> posts on the Planview Blog"><?php echo $title; ?></a></h2>
 		<p><?php echo $description; ?></p>
 	</article>
 </div>

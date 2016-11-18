@@ -5,6 +5,16 @@
 	}
 }
 
+/* Medium and large screens */
+@media (min-width: $screen-md-min) { 
+  .about {
+    figure {
+      height: 150px;
+      overflow: hidden;
+    }
+  }
+}
+
 /* Between medium and large screens */
 @media (min-width: $screen-md-max) and (max-width: 1360px) { 
 	.single-post header h1 {

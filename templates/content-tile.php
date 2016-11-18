@@ -20,7 +20,8 @@
 	<article <?php post_class(); ?> style="background-image:url('<?php echo $src; ?>')" onClick="location.href='<?php the_permalink(); ?>'">
 	  <div class="caption">
 	  	<header>
-	  	  <h2 class="entry-title"><?php the_title(); ?></h2>
+	  	  <script>document.write('<h2 class="entry-title"><?php the_title(); ?></h2>');</script>
+        <noscript><h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></noscript>
 	  	  <time class="updated" datetime="<?= get_the_time('c'); ?>"><?= get_the_date(); ?></time>
 	  	</header>
 	  	<div class="entry-summary">
