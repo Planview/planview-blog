@@ -334,6 +334,20 @@
 	}
 }
 
+.category #category-meta {
+  background-color: $gray-lightest;
+  margin-bottom:2em;
+  padding: 40px;
+  .media-left {
+    padding-right: 40px;
+  }
+  img.img-circle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid $gray-lighter;
+  }
+}
+
 #comments {
 	margin-top: 50px;
 	h3 {
