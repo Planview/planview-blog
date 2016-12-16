@@ -21,13 +21,21 @@
 		color: $gray-dark;
 		font-size: 45pt;
 		height: auto;
-		margin-bottom: 35px;
+		margin-bottom: 10px;
 		display: inline-block;
 		line-height: 1;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
-	.navbar-nav>li>a {
+  .tagline { 
+    clear:both;
+    color:#000000;
+    font-size:20pt;
+    margin-bottom:35px;
+    margin-left:-15px;
+    padding:0 15px;
+  }
+  .navbar-nav>li>a {
 		text-transform: uppercase;
 		font-size: 10pt;
 		padding: 5px 10px;

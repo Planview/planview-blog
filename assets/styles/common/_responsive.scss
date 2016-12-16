@@ -32,10 +32,6 @@
 		padding-top: 30px;
 	}
 
-	.navbar-default .navbar-brand {
-		margin-bottom: 25px;
-	}
-
 	.navbar-default .navbar-nav>li.menu-subscribe>a span {
 		display: none;
 	}
@@ -126,7 +122,12 @@
 	  	margin-bottom: 0px;
 	  	font-size: 24pt;
 	  }
-	  #mainnav {
+    .tagline { 
+      font-size:12pt;
+      margin-bottom:10px;
+      margin-left:0;
+    }
+    #mainnav {
 	  	border-bottom: none;
 	  }
 	}

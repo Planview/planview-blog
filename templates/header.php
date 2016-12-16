@@ -24,7 +24,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+      <a class="navbar-brand" href="/"><?php bloginfo('name'); ?></a>
+      <div class="tagline"><?php bloginfo('description'); ?></div>
     </div>
 
     <nav class="collapse navbar-collapse" id="mainnav">
