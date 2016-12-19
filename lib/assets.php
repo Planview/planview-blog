@@ -68,7 +68,7 @@ function asset_path($filename) {
 function assets() {
   
   wp_enqueue_style( 'avenir_font', '//fast.fonts.net/cssapi/09ff86dc-664a-4b55-b9ac-75e9cac7d8aa.css' );
-  wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, false);
+  wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, hash('md5', '2016-12-19'));
   wp_enqueue_style('additional_css', '/wp-content/themes/planview-blog/temp/styles/main-additional.css');
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
