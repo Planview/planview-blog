@@ -246,11 +246,12 @@ img.icon, img.pdf-icon {
 .subscribe p {
   font-size: 14px;
 }
-.subscribe button.btn.btn-sm {
+.subscribe button.btn.btn-sm, .subscribe a.btn.btn-sm {
+  border: 1px solid transparent;
   padding: 5px 30px;
   background: #f98810;
   color: #fff;
 }
-.subscribe button.btn.btn-sm:hover {
+.subscribe button.btn.btn-sm:hover, .subscribe a.btn.btn-sm:hover {
   background: #fbaf5f;
 }

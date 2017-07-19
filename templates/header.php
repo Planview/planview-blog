@@ -41,11 +41,11 @@
         wp_nav_menu(['theme_location' => 'primary_navigation_right', 'menu_class' => 'nav navbar-nav navbar-right icons']);
       endif;
       ?>
-
+     
       <ul class="nav navbar-nav navbar-right icons">
-        <li class="menu-item menu-subscribe"><a href="#subscribeModal" title="Subscribe" data-toggle="modal" data-target="#subscribeModal"><i class="fa fa-envelope-square"></i>  <span>Subscribe</span></a></li>
-      </ul>
-
+        <li class="menu-item menu-subscribe"><a href="http://info.planview.com/blog-subscription-_blog-signup_gen_en_reg.html" title="Subscribe" target="_blank"><i class="fa fa-envelope-square"></i>  <span>Subscribe</span></a></li>
+      </ul>     
+     
       <?php
       if (has_nav_menu('primary_navigation')) :
         wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new wp_bootstrap_navwalker(), 'menu_class' => 'nav navbar-nav']);
@@ -60,5 +60,3 @@
 
   </div>
 </header>
-
-<?php get_template_part('templates/subscribe-modal'); ?>
